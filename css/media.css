@@ -1,0 +1,88 @@
+ 
+  /* ПЛАНШЕТЫ  728-960 px*/
+ @media screen and (max-width: 960px) {
+ 	.container {
+ 		width: 90%;
+ 	}
+ 	.head__mail {
+ 		display: none;
+ 	}
+
+ 	.head__menu {
+ 		display: none;
+ 	}
+
+ 	.about__brack {
+ 		 width: 100%; 
+ 	}
+ 	.about__skills {
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+
+ 	.skill2 {
+ 		margin-left: 20%;
+ 	}
+
+ 	.skill3 {
+ 		margin-left: 1%;
+ 		float: right;
+ 	}
+ 	.skiling4 {
+ 		display: none;
+ 	}
+ 	.work__photo {
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+
+ 	.work__photo3 {
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+	.work__photo2{
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+		
+ }
+
+  /* МОБИЛЬНЫЕ  0- 728px*/
+
+@media screen and (max-width: 728px) {
+	.work__photo {
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+	.work__photo2 {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	
+	.work__photo3 {
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.about__skills__phone  {
+		width: 100%;
+		float: none;
+	}
+
+	.about__brack {
+		width: 100%;
+		float: none;
+	}
+
+	.about__skills__phone {
+		float: none;
+		margin-top: 300px;
+	} 
+	
+}

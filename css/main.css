@@ -1,0 +1,441 @@
+@font-face {
+  font-family: 'Natasha';
+  src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Natasha')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo';
+  src: url('../fonts/Museo.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Museo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Museo.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Museo.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Museo')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Museo.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'MuseoSan';
+  src: url('../fonts/MuseoSan.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSan.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSan.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSan')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSan.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('../fonts/MuseoSans.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSans.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSans.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSans')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+body {
+	font-family: 'Museo', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	
+}
+
+div, p, h1, h2, ul, img {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.clearfix:after {
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+}
+
+	/* HEADER */
+
+header {
+	background: url(../img/headfont.png) no-repeat center top / cover ;
+	font-style: normal;
+	padding-bottom: 75px;
+	
+}
+
+.head__main {
+	padding-top: 30px ;
+}
+
+.head__logo {
+	float: left;
+}
+
+.head__menu {
+	
+}
+
+.head__menu__item {
+	display: block;		
+	padding: 0;
+	margin: 0;
+	margin-left: 350px;
+}
+
+.head__menu__item li {
+	float: left;
+	display: block;
+	margin-right: 47px ;
+}
+
+.head__menu__item li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+.head__mail {
+	float: right;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'MuseoSans', sans-serif;
+	border-bottom: 1px solid #fff;
+}
+
+.head__titles {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.head__titles__first {
+	font-family: 'Natasha', sans-serif;
+	font-size: 49px;
+	color: #fff;
+}
+
+.head__titles p {
+	font-family: 'MuseoSan', sans-serif;
+	font-size: 29px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.head__icon {
+	text-align: center;
+	margin-top: 230px;
+}
+
+	/* ABOUT_ME */
+
+.about__me {
+	font-family: 'Natasha', sans-serif;
+	font-size: 37px;
+	margin-top: 50px;
+	
+}
+
+.about__brack {
+	width: 455px ;
+	margin-top: 15px;
+	display: block;
+	float: left;
+}
+
+.about__brack__title {
+	font-family: 'Natasha', sans-serif;
+	font-size: 22px;
+	color: #888886;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+.about__brack p {
+	font-family: 'MuseoSans', sans-serif;
+	font-size: 16px;
+	color: #22241b;
+	overflow: hidden;
+	line-height: 30px; 
+	
+}
+
+.about__skills {
+	float: right;
+	width: 460px;
+	margin-top: 19px;
+}
+
+
+.about__skills_lev {
+	margin-top: 42px;
+}
+
+.skill1 {
+	background: url(../img/romb.png) no-repeat left center;
+	width: 103px;
+	height: 103px;
+	text-align: center;
+	line-height: 103px;
+	font-size: 20px;
+	font-family: 'MuseoSan', sans-serif;
+	float: left;
+	margin-left: 38px;
+}
+
+.skill2 {
+	background: url(../img/romb.png) no-repeat left center;
+	width: 103px;
+	height: 103px;
+	text-align: center;
+	line-height: 103px;
+	font-size: 20px;
+	font-family: 'MuseoSan', sans-serif;
+	float: left;
+	margin-left: 37px;
+}
+
+.skill3 {
+	background: url(../img/romb.png) no-repeat left center;
+	width: 103px;
+	height: 103px;
+	text-align: center;
+	line-height: 103px;
+	font-size: 20px;
+	font-family: 'MuseoSan', sans-serif;
+	float: right;
+	margin-right: 38px;
+}
+
+.about__skills_lev p {
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: -15px;
+	font-family: 'MuseoSan', sans-serif; 
+}
+
+
+.about__skills__phone {
+	padding-top: 170px;
+}
+
+.id {
+	font-family: 'MuseoSans', sans-serif;
+	font-size: 16px;
+	display: block;
+	width: 185px;
+	float: left;
+	margin-right: 0px;
+}
+
+.id p {
+	text-decoration: underline;
+	margin: 20px 0 0 20px ;
+}
+
+.users {
+	float: right;
+	display: flex;
+    margin-top: 55px;
+    margin-right: 30px;
+}
+
+.users i {
+	font-size: 40px;
+	color: #667262;
+}
+
+.users p {
+	font-size: 14px;
+	font-family: 'MuseoSans', sans-serif;
+	margin-top: 10px;
+	margin-left: 19px;
+}
+
+.skilings {
+	margin-top: 50px;
+	display: flex;
+}
+
+.skiling1 {
+	background:  url(../img/circle.png) no-repeat left center ;
+	width: 62px;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'MuseoSan', sans-serif;
+	display: flex;
+	float: left;
+	padding-left: 18px;
+}
+
+.skiling1 p {
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: 'Museo', sans-serif;
+	text-transform: uppercase;
+}
+
+.skiling2{
+	background:  url(../img/circle.png) no-repeat left center ;
+	width: 62px;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'MuseoSan', sans-serif;
+	display: flex;
+	float: left;
+	padding-left: 18px;
+	margin-left: 200px;
+}
+
+.skiling2 p {
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: 'Museo', sans-serif;
+	text-transform: uppercase;
+}
+
+
+.skiling3 {
+	background:  url(../img/circle.png) no-repeat left center ;
+	width: 62px;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'MuseoSan', sans-serif;
+	display: flex;
+	float: left;
+	padding-left: 18px;
+	margin-right: 0;
+	margin-left: 150px;
+}
+
+.skiling3 p {
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: 'Museo', sans-serif;
+	text-transform: uppercase;
+}
+
+.skiling4 {
+	background:  url(../img/circle.png) no-repeat left center ;
+	width: 62px;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'MuseoSan', sans-serif;
+	display: flex;
+	float: right;
+	padding-left: 18px;
+	margin-left: 140px;
+}
+
+.skiling4 p {
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: 'Museo', sans-serif;
+	text-transform: uppercase;
+}
+
+	/* WORK	 */
+
+.work {
+	margin-top: 60px;
+	margin-bottom: 120px ;
+}
+
+.work__photo {
+	width: 300px;
+	height: 300px;
+	float: left;
+	position: relative;
+	z-index: 8;
+}
+
+.work__photo2 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	position: relative;
+	z-index: 8;
+	margin-left: 25px;
+}
+
+.work__photo3 {
+	width: 300px;
+	height: 300px;
+	float: right;
+	position: relative;
+	z-index: 8;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	padding-top: 150px;
+	opacity: 0;
+	transition: all ease 0.7s
+}
+
+.work__photo:hover .overlay {
+	opacity: 1;
+}
+
+.work__photo2:hover .overlay {
+	opacity: 1;
+}
+
+.work__photo3:hover .overlay {
+	opacity: 1;
+}
+
+
+.over_1 {
+	font-family: 'Museo', sans-serif;
+	font-size: 15px;
+}
+
+.over_2 {
+	margin-top: 5px;
+	font-family: 'MuseoSans', sans-serif;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.foot {
+	margin-bottom: 110px ;
+	font-family: 'MuseoSans', sans-serif;
+	color: #888886;
+}
+
